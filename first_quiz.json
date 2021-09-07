@@ -1,0 +1,504 @@
+[
+[2044429596,
+  "You were asked to architect a solution for a new two-tier web application for your AWS environment. Your new web application is working and is gaining popularity, and you have now been tasked with a new requirement: to store the most frequently used data for low latency for quicker responses. What AWS service would you use to meet the requirements?",
+  null, 2, [
+    [1819398936, [
+      ["DynamoDB", null, null, null, 0],
+      ["MySQL database installed on two EC2 instances in two Availability Zones", null, null, null, 0],
+      ["ElastiCache", null, null, null, 0],
+      ["RDS with Multi-AZ", null, null, null, 0]
+    ], 0, null, null, null, null, null, 0]
+  ]
+],
+[650384403, "When looking at the AWS Management Console, you are not seeing services that you have provisioned. Which of the following could be a reason why?", null, 2, [
+  [2098957656, [
+    ["You have not paid for them", null, null, null, 0],
+    ["Your account requires new access keys", null, null, null, 0],
+    ["You have not selected the correct region", null, null, null, 0],
+    ["The console does not show reserved instances", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[2115780216, "You have a rule in a security group that allows HTTPS requests into an EC2 instance. Which statement is true about how the security policy applies to responses to the request?", null, 2, [
+  [1525568162, [
+    ["The response will be blocked without a corresponding rule allowing it", null, null, null, 0],
+    ["A corresponding ACL must be present to allow the response", null, null, null, 0],
+    ["Security groups automatically have the same rules for inbound and outbound requests", null, null, null, 0],
+    ["Security groups will automatically allow traffic that is a response to an allowed request, regardless of what the rules specify", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[911983475, "Savings plans on AWS offer deep discounts over on-demand pricing based on a commitment for future purchase. Which service is NOT covered by savings plans?", null, 2, [
+  [526252646, [
+    ["S3", null, null, null, 0],
+    ["EC2", null, null, null, 0],
+    ["Lambda", null, null, null, 0],
+    ["Fargate", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[710178554, "AWS OpsWorks provides managed instances of popular automation and configuration tools. Which popular utilities are available within OpsWorks? (SELECT TWO.)", null, 4, [
+  [443782428, [
+    ["Git", null, null, null, 0],
+    ["SVN", null, null, null, 0],
+    ["Puppet", null, null, null, 0],
+    ["CVS", null, null, null, 0],
+    ["Chef", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1860187155, "You suspect one of your employees has been violating company policy with the use of AWS services under your account for personal use. Which AWS service would be valuable to investigate their activities?", null, 2, [
+  [1660312966, [
+    ["CloudWatch", null, null, null, 0],
+    ["CloudTrail", null, null, null, 0],
+    ["CloudAudit", null, null, null, 0],
+    ["CloudLog", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[997717339, "Which of the following describes the cloud design principle of scalability?", null, 2, [
+  [1502119365, [
+    ["the ability to automatically increase available compute resources to meet growing user demand", null, null, null, 0],
+    ["the ability to route incoming client requests between multiple application servers", null, null, null, 0],
+    ["the ability to reduce production costs by spreading capital expenses across many accounts", null, null, null, 0],
+    ["the ability to segment physical resources into multiple virtual partitions", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[301527628, "Which option best fits the definition of High Availability (HA)?", null, 2, [
+  [1221710689, [
+    ["the ability to grow (scale up/out) when required", null, null, null, 0],
+    ["the ability of a system to be continuously operational for a desirably long length of time", null, null, null, 0],
+    ["when EC2 Instances are placed in multiple AZs", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[2071038441, "What is an example of encryption at rest?", null, 2, [
+  [1301539448, [
+    ["When logging into a Google account", null, null, null, 0],
+    ["When a local file is encrypted", null, null, null, 0],
+    ["When entering credit card information", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1298779995, "In the context of cloud security, what are the customer's responsibilities?", null, 2, [
+  [537514720, [
+    ["Data in the cloud", null, null, null, 0],
+    ["Data center security", null, null, null, 0],
+    ["Paying for your AWS usage", null, null, null, 0],
+    ["Hardware failures", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1141471041, "Which of the following best describes the cloud service model known as infrastructure as a service (IaaS)?", null, 2, [
+  [436073760, [
+    ["End user access to software applications delivered over the internet", null, null, null, 0],
+    ["Access to a simplified interface through which customers can directly deploy their application code without having to worry about managing the underlying infrastructure", null, null, null, 0],
+    ["Customer rental of the use of measured units of a provider’s physical compute, storage,and networking resources", null, null, null, 0],
+    ["Abstracted interfaces built to manage clusters of containerized workloads", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1940414605, "How does AWS ensure that no single customer consumes an unsustainable proportion of available resources?", null, 2, [
+  [1097826799, [
+    ["AWS allows customers to consume as much as they’re willing to pay for, regardless of general availability", null, null, null, 0],
+    ["AWS imposes default limits on the use of its service resources but allows customers to request higher limits", null, null, null, 0],
+    ["AWS imposes hard default limits on the use of its service resources", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1078299630, "The AWS Free Tier is designed to give new account holders the opportunity to get to know how their services work without necessarily costing any money. How does it work?", null, 2, [
+  [1414858786, [
+    ["You get service credits that can be used to provision and launch a few typical workloads", null, null, null, 0],
+    ["You get full free access to a few core AWS services for one month", null, null, null, 0],
+    ["You get low-cost access to many core AWS services for three months", null, null, null, 0],
+    ["You get free lightweight access to many core AWS services for a full 12 months", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1258807017, "AWS customers receive “production system down” support within one hour when they subscribe to which support plan(s)?", null, 2, [
+  [399446805, [
+    ["Developer and Basic", null, null, null, 0],
+    ["Developer", null, null, null, 0],
+    ["Business and Enterprise", null, null, null, 0],
+    ["Enterprise and Developer", null, null, null, 0],
+    ["Business", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[820705401, "The AWS Shared Responsibility Model illustrates how AWS itself (as opposed to its customers) is responsible for which aspects of the cloud environment?", null, 2, [
+  [1841079685, [
+    ["The redundancy and integrity of customer-added data", null, null, null, 0],
+    ["Data and configurations added by customers", null, null, null, 0],
+    ["The underlying integrity and security of AWS physical resources", null, null, null, 0],
+    ["The operating systems run on EC2 instances", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[439354041, "Which of these is a designation for two or more AWS data centers within a single geographic area?", null, 2, [
+  [2047108447, [
+    ["Region", null, null, null, 0],
+    ["Availability Zone (AZ)", null, null, null, 0],
+    ["Network subnet", null, null, null, 0],
+    ["Geo units", null, null, null, 0],
+    ["VPC", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1690877401, "How, using security best practices, should your organization’s team members access your AWS account resources?", null, 2, [
+  [514040615, [
+    ["Through a jointly shared single account user who’s been given full account-wide permissions", null, null, null, 0],
+    ["Only a single team member should be given any account access", null, null, null, 0],
+    ["Ideally, resource access should occur only through the use of access keys", null, null, null, 0],
+    ["Through the use of specially created users, groups, and roles, each given the fewest permissions necessary", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1653984699, "What authentication method will you use to access your AWS resources remotely through the AWS Command Line Interface (CLI)?", null, 2, [
+  [10491010, [
+    ["Strong password", null, null, null, 0],
+    ["SSH key pairs", null, null, null, 0],
+    ["Access keys", null, null, null, 0],
+    ["MFA", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1832982592, "Which of these is the primary benefit from using resource tags with your AWS assets?", null, 2, [
+  [894156007, [
+    ["Tags enable the use of remote administration operations via the AWS CLI", null, null, null, 0],
+    ["Some AWS services won’t work without the use of resource tags", null, null, null, 0],
+    ["Tags enhance data security and provide encryption", null, null, null, 0],
+    ["Tags make it easier to identify and administrate running resources in a busy AWS account.", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1531073372, "What is a hypervisor?", null, 2, [
+  [913988640, [
+    ["Software used to administrate virtualized resources run on physical infrastructure", null, null, null, 0],
+    ["Hardware device used to provide an interface between networking and computemodules", null, null, null, 0],
+    ["Software used to log and monitor virtualized operations", null, null, null, 0],
+    ["Hardware device used to provide an interface between storage and compute modules", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1803292375, "Which of the following are direct benefits of server virtualization? (Select TWO.)", null, 4, [
+  [779906283, [
+    ["Efficient (high-density) use of resources", null, null, null, 0],
+    ["Fast resource provisioning and launching", null, null, null, 0],
+    ["Greater application security", null, null, null, 0],
+    ["Elastic application designs", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1031536846, "Which of the following best describes Software as a Service products?", null, 2, [
+  [889439778, [
+    ["Services that give you direct control over underlying compute and storage resources", null, null, null, 0],
+    ["Services that provide a service to end users through a public network", null, null, null, 0],
+    ["Services that hide infrastructure complexity behind a simple interface", null, null, null, 0],
+    ["Platforms that allow developers to run their code over short periods on cloud servers", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[2075033039, "Which of the following are signs of a highly available application? (Select TWO.)", null, 4, [
+  [1622414993, [
+    ["A failure in one geographic region will trigger an automatic failover to resources in adifferent region.", null, null, null, 0],
+    ["Applications are protected behind multiple layers of security", null, null, null, 0],
+    ["Virtualized hypervisor-driven systems are deployed as mandated by company policy", null, null, null, 0],
+    ["Spikes in user demand are met through automatically increasing resources", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[109467163, "What is the primary function of the AWS IAM service?", null, 2, [
+  [1562624640, [
+    ["Identity and access management", null, null, null, 0],
+    ["Access key management", null, null, null, 0],
+    ["Federated access management", null, null, null, 0],
+    ["SSH key pair management", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1569243648, "Which of the following are requirements you can include in an IAM password policy?(Select FOUR.)", null, 4, [
+  [1360459020, [
+    ["Require at least one uppercase letter from Latin alphabet (A–Z)", null, null, null, 0],
+    ["Require at least one lowercase letter from Latin alphabet (a–z)", null, null, null, 0],
+    ["Require at least one space or null character", null, null, null, 0],
+    ["Require at least one number", null, null, null, 0],
+    ["Require at least one nonalphanumeric character ! @ # $ % ^ \u0026 * ( ) _ + - \u003d [ ] { } | '", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[294311678, "Which of the following should you do to secure your AWS root user? (Select TWO.)", null, 4, [
+  [302929622, [
+    ["Assign the root user to the “admins” IAM group.", null, null, null, 0],
+    ["Use the root user for day-to-day administration tasks", null, null, null, 0],
+    ["Enable MFA", null, null, null, 0],
+    ["Create a strong password", null, null, null, 0]
+  ], 1, null, null, null, null, null, 0]
+]],
+[1895060528, "What is an IAM role?", null, 2, [
+  [1143754522, [
+    ["A set of permissions allowing access to specified AWS resources", null, null, null, 0],
+    ["A set of IAM users given permission to access specified AWS resources", null, null, null, 0],
+    ["Permissions granted an IAM user over specified AWS resources", null, null, null, 0],
+    ["Permissions granted a trusted entity over specified AWS resources", null, null, null, 0]
+  ], 1, null, null, null, null, null, 0]
+]],
+[315542749, "What information does the IAM credential report provide?", null, 2, [
+  [147967454, [
+    ["A record of API requests against your account resources", null, null, null, 0],
+    ["A record of failed password account login attempts", null, null, null, 0],
+    ["The current state of your account security settings", null, null, null, 0],
+    ["The current state of security of your IAM users’ access credentials", null, null, null, 0]
+  ], 1, null, null, null, null, null, 0]
+]],
+[855749491, "What will you need to provide for a new IAM user you’re creating who will use “programmatic access” to AWS resources?", null, 2, [
+  [966396793, [
+    ["A password", null, null, null, 0],
+    ["A password and MFA", null, null, null, 0],
+    ["An access key ID and secret access key", null, null, null, 0],
+    ["An access key ID", null, null, null, 0]
+  ], 1, null, null, null, null, null, 0]
+]],
+[1040829444, "Which of the following standards governs AWS-based applications processing credit card transactions?", null, 2, [
+  [417523890, [
+    ["SSE-KMS", null, null, null, 0],
+    ["FedRAMP", null, null, null, 0],
+    ["PCI DSS", null, null, null, 0],
+    ["ARPA", null, null, null, 0]
+  ], 1, null, null, null, null, null, 0]
+]],
+[1897873066, "Which of the following is true regarding a resource tag?", null, 2, [
+  [1633562451, [
+    ["It must have a key.", null, null, null, 0],
+    ["It’s case insensitive.", null, null, null, 0],
+    ["It must be unique within an account.", null, null, null, 0],
+    ["It must have a value.", null, null, null, 0]
+  ], 1, null, null, null, null, null, 0]
+]],
+[891491084, "Which output format does the AWS CLI support?", null, 2, [
+  [1329047132, [
+    ["None of these", null, null, null, 0],
+    ["Comma-separated values (CSV)", null, null, null, 0],
+    ["json, yaml, text, table", null, null, null, 0]
+  ], 1, null, null, null, null, null, 0]
+]],
+[542791003, "Which AWS service would simplify the migration of a database to AWS?", null, 2, [
+  [796130680, [
+    ["AWS Storage Gateway", null, null, null, 0],
+    ["AWS Database Migration Service (AWS DMS)", null, null, null, 0],
+    ["Amazon EC2", null, null, null, 0],
+    ["Amazon AppStream 2.0", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1866690804, "Which AWS offering enables users to find, buy, and immediately start using software solutions in theirAWS environment?", null, 2, [
+  [353044852, [
+    ["AWS Config", null, null, null, 0],
+    ["AWS OpsWorks", null, null, null, 0],
+    ["AWS SDK", null, null, null, 0],
+    ["AWS Marketplace", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[2120260731, " Which AWS networking service enables a company to create a virtual network within AWS?", null, 2, [
+  [1402172898, [
+    ["AWS Config", null, null, null, 0],
+    ["Amazon Route 53", null, null, null, 0],
+    ["AWS Direct Connect", null, null, null, 0],
+    ["Amazon Virtual Private Cloud (Amazon VPC)", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1691469337, "Where can a user find information about prohibited actions on the AWS infrastructure?", null, 2, [
+  [1353489285, [
+    ["AWS Trusted Advisor", null, null, null, 0],
+    ["AWS Identity and Access Management (IAM)", null, null, null, 0],
+    ["AWS Billing Console", null, null, null, 0],
+    ["AWS Acceptable Use Policy", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1983599815, "Which service would be used to send alerts based on Amazon CloudWatch alarms?", null, 2, [
+  [576391873, [
+    ["Amazon Simple Notification Service (Amazon SNS)", null, null, null, 0],
+    ["AWS CloudTrail", null, null, null, 0],
+    ["AWS Trusted Advisor", null, null, null, 0],
+    ["Amazon Route 53", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[701795099, "Which service can identify the user that made the API call when an Amazon EC2 instance isterminated?", null, 2, [
+  [344483485, [
+    ["AWS Trusted Advisor", null, null, null, 0],
+    ["AWS CloudTrail", null, null, null, 0],
+    ["AWS X-Ray", null, null, null, 0],
+    ["AWS Identity and Access Management (AWS IAM)", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1383430727, "How would a system administrator add an additional layer of login security to a user's AWSManagement Console?", null, 2, [
+  [1506937631, [
+    ["Use Amazon Cloud Directory", null, null, null, 0],
+    ["Audit AWS Identity and Access Management (IAM) roles", null, null, null, 0],
+    ["Enable multi-factor authentication", null, null, null, 0],
+    ["Enable AWS CloudTrail", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[422220092, "A customer needs to determine Total Cost of Ownership (TCO) for a workload that requires physical isolation. Which hosting model should be used?", null, 2, [
+  [1479925276, [
+    ["Dedicated Hosts", null, null, null, 0],
+    ["Reserved Instances", null, null, null, 0],
+    ["On-Demand Instances", null, null, null, 0],
+    ["Spot Instances", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[2035052960, "Which design principles are enabled by the AWS Cloud to improve the operation of workloads? (Select TWO)", null, 4, [
+  [24604100, [
+    ["Minimize platform design", null, null, null, 0],
+    ["Loose coupling", null, null, null, 0],
+    ["Customized hardware", null, null, null, 0],
+    ["Remove single points of failure", null, null, null, 0],
+    ["Minimum viable product", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[445490402, "A large company is interested in avoiding long-term contracts and moving from fixed costs to variable costs. What is the value proposition of AWS for this company?", null, 2, [
+  [1095637449, [
+    ["Economies of scale", null, null, null, 0],
+    ["Pay-as-you-go pricing", null, null, null, 0],
+    ["Volume pricing discounts", null, null, null, 0],
+    ["Automated cost optimization", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1752071276, "What advantages does a database administrator obtain by using the Amazon Relational Database Service (RDS)?", null, 2, [
+  [151346926, [
+    ["RDS provides 99.99999999999% reliability and durability", null, null, null, 0],
+    ["RDS databases automatically scale based on load", null, null, null, 0],
+    ["RDS enables users to dynamically adjust CPU and RAM resources", null, null, null, 0],
+    ["RDS simplifies relational database administration tasks", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[646392533, "Which of the following is NOT an available EC2 Instance Type?", null, 2, [
+  [717124630, [
+    ["General Purpose", null, null, null, 0],
+    ["Database Optimized", null, null, null, 0],
+    ["Memory Optimized", null, null, null, 0],
+    ["Compute Optimized", null, null, null, 0],
+    ["Accelerated Computing", null, null, null, 0],
+    ["Storage Optimized", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[173666120, "Your web application experiences periodic spikes in demand that require the provisioning of extra instances. Which of the following pricing models would make the most sense for those extra instances?", null, 2, [
+  [501341056, [
+    ["Spot", null, null, null, 0],
+    ["On-demand", null, null, null, 0],
+    ["Reserved", null, null, null, 0],
+    ["Dedicated", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1798588209,
+  "Your web application experiences periodic spikes in demand that require the provisioning of extra instances. Which of the following pricing models would make the most sense for the “base” instances that will run constantly?", null, 2,
+  [
+    [29072279, [
+      ["Spot", null, null, null, 0],
+      ["On-demand", null, null, null, 0],
+      ["Spot fleet", null, null, null, 0],
+      ["Reserved", null, null, null, 0]
+    ], 0, null, null, null, null, null, 0]
+  ]
+],
+[1691023193, "Which of the following best describes what happens when you purchase an EC2 reserved instance?", null, 2, [
+  [1328067128, [
+    ["Charges for any instances you run matching the reserved instance type will be coveredby the reservation.", null, null, null, 0],
+    ["Your account will immediately and automatically be billed for the full reservationamount.", null, null, null, 0],
+    ["An EC2 instance matching your reservation will automatically be launched in theselected AWS Region.", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[796268880, "Which AWS services simplify the process of bringing web applications to deployment?(Select TWO.)", null, 4, [
+  [409309075, [
+    ["Elastic Block Store", null, null, null, 0],
+    ["Elastic Compute Cloud", null, null, null, 0],
+    ["Elastic Beanstalk", null, null, null, 0],
+    ["Lightsail", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1626170714, "What factors below must be added to the TCO calculator to calculate the Total Cost of Ownership in AWS?", null, 4, [
+  [1554642194, [
+    ["Number of servers needed to be migrated to AWS", null, null, null, 0],
+    ["Number of keys needed to be migrated to AWS", null, null, null, 0],
+    ["Existing and planned infrastructure", null, null, null, 0],
+    ["Number of users needed to be migrated to AWS", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[2143710623, "Your company is migrating its on-premises environment to AWS. Which service below would help you do a cost-benefit analysis of moving to AWS versus remaining on-premises to present to your board of directors?", null, 2, [
+  [1125316725, [
+    ["AWS Config", null, null, null, 0],
+    ["AWS Consolidated Billing", null, null, null, 0],
+    ["AWS Cost Explorer", null, null, null, 0],
+    ["AWS TCO Calculator", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1482815272,
+  "Your company has decided to use AWS S3 to store archived data that is required for regulatory compliance but is not accessed otherwise. However, when it is required, it must be produced within 24 hours. Which S3 storage type would be the most cost-effective choice to meet these requirements?",
+  null, 2, [
+    [824684304, [
+      ["S3 One Zone-Infrequent Access", null, null, null, 0],
+      ["S3 Glacier", null, null, null, 0],
+      ["S3 Standard-Infrequent Access", null, null, null, 0],
+      ["S3 Glacier Deep", null, null, null, 0]
+    ], 0, null, null, null, null, null, 0]
+  ]
+],
+[1961329585, "You have an enterprise support plan in AWS and have an upcoming disaster recovery drill that you need AWS involvement in. Which AWS support resource would you reach out to for this?", null, 2, [
+  [1782117249, [
+    ["AWS technical account manager", null, null, null, 0],
+    ["AWS Professional Services", null, null, null, 0],
+    ["AWS DR engineers", null, null, null, 0],
+    ["AWS consulting services", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[226594824, "Amazon Aurora is a database service that incorporates two popular databases that are widely used by software packages. Which two databases are part of Aurora?", null, 4, [
+  [559177730, [
+    ["Microsoft SQL Server", null, null, null, 0],
+    ["Oracle", null, null, null, 0],
+    ["MySQL", null, null, null, 0],
+    ["MariaDB", null, null, null, 0],
+    ["PostgreSQL", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[999977094, "The AWS Free Tier has three different categories of free services. Which of the following is NOT a category of the Free Tier?", null, 2, [
+  [1787581454, [
+    ["Trials", null, null, null, 0],
+    ["Always free", null, null, null, 0],
+    ["12-months free", null, null, null, 0],
+    ["Free scaling", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1863704508,
+  "You need to store data objects in S3 that will be infrequently requested, but when they are requested, you need to have immediate response and high availability. Which S3 storage class would be the most cost-effective to use for this requirement?",
+  null, 2, [
+    [1129503109, [
+      ["S3 Standard", null, null, null, 0],
+      ["S3 Standard-Infrequent Access", null, null, null, 0],
+      ["S3 Intelligent-Tiering", null, null, null, 0],
+      ["S3 One Zone-Infrequent Access", null, null, null, 0]
+    ], 0, null, null, null, null, null, 0]
+  ]
+],
+[2129694783,
+  "Under the developer service plan, you receive different guarantees of support time response for both general guidance issues and system problems. Which combination of response times is associated with the developer support plan?",
+  null, 2, [
+    [372667913, [
+      ["24 hours for general guidance, 12 hours for system problems", null, null, null, 0],
+      ["48 hours for general guidance, 24 hours for system problems", null, null, null, 0],
+      ["12 hours for general guidance, 6 hours for system problems", null, null, null, 0],
+      ["12 hours for general guidance, 1 hour for system problems", null, null, null, 0]
+    ], 0, null, null, null, null, null, 0]
+  ]
+],
+[1010424285, "AWS Edge allows for ultra-low-latency access to data through a network of locations throughout the world and specializing in a few services. Which of the following AWS services use Edge? (Choose two.)", null, 4, [
+  [1699122804, [
+    ["Lightsail", null, null, null, 0],
+    ["DynamoDB", null, null, null, 0],
+    ["AWS Storage Gateway", null, null, null, 0],
+    ["CloudFront", null, null, null, 0],
+    ["Route 53", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1208963056,
+  "Your data center has become unreliable and slow in terms of Internet connectivity due to a natural disaster. You have decided it is time to move all data into AWS and retire your data center to prevent this problem from happening again. With the problems of unreliability and slowness, which AWS service would facilitate moving this large amount of data into AWS?",
+  null, 2, [
+    [229741627, [
+      ["AWS Snowcone", null, null, null, 0],
+      ["AWS Snowmobile", null, null, null, 0],
+      ["AWS Snowball", null, null, null, 0],
+      ["AWS Snowplow", null, null, null, 0]
+    ], 0, null, null, null, null, null, 0]
+  ]
+],
+[1042477959, "Which AWS service would be used by developers for packaging deployment packages for application code?", null, 2, [
+  [666040165, [
+    ["CodeCommit", null, null, null, 0],
+    ["CodeDeploy", null, null, null, 0],
+    ["CodeBuild", null, null, null, 0],
+    ["CodeCompile", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]],
+[1264602951, "The data your application hosts has strict regulatory requirements that you must meet. Which component of the AWS infrastructure would you be most focused on when deploying resources", null, 2, [
+  [1313551893, [
+    ["Availability Zones", null, null, null, 0],
+    ["Regions", null, null, null, 0],
+    ["Edge services", null, null, null, 0],
+    ["VPC", null, null, null, 0]
+  ], 0, null, null, null, null, null, 0]
+]]
+]
