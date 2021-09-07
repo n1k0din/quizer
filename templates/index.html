@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <title>quizer</title>
+</head>
+
+<body>
+  <form action="/" method="post">
+    {{ question.text }}
+    {% csrf_token %}
+    {% if is_radio %}
+      {% for answer in answers %}
+        <p><input type="radio" id="{{ answer.id }}" value="{{ answer.id }}" name="posted_answer">
+        <label for="{{ answer.id }}">{{ answer.text }}</label></p>
+      {% endfor %}
+    {% else %}
+      {% for answer in answers %}
+        <p><input type="checkbox" id="{{ answer.id }}" value="{{ answer.id }}" name="posted_answer[]">
+        <label for="{{ answer.id }}">{{ answer.text }}</label></p>
+      {% endfor %}
+    {% endif %}
+    <input type="submit" value="Send">
+</form>
+<h5>score: {{ score }}</h5>
+</body>
+
+</html>
