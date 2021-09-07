@@ -5,6 +5,16 @@
 </head>
 
 <body>
+  {% if prev_question %}
+    <p>Previous question: {{ prev_question.text }}</p>
+    <p>Correct answer:
+      <ul>
+        {% for answer in correct_answers_for_prev_question %}
+          <li>{{ answer.text }}</li>
+        {% endfor %}
+      </ul>
+    </p>
+  {% endif %}
   <form action="/" method="post">
     {{ question.text }}
     {% csrf_token %}

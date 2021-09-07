@@ -2,10 +2,13 @@ from random import shuffle
 
 from django.shortcuts import render
 
-from tasks.models import Question
+from tasks.models import Question, Answer
 
 
 def index(request):
+    prev_question = None
+    correct_answers_for_prev_question = None
+
     if request.POST:
         correct_answer = set(request.session.get('correct'))
         many_answers = request.POST.getlist('posted_answer[]')
@@ -20,6 +23,10 @@ def index(request):
             request.session['score'] += 1
         else:
             request.session['score'] = 0
+            prev_question = Question.objects.get(id=request.session['question'])
+            correct_answers_for_prev_question = Answer.objects.filter(
+                id__in=request.session['correct'],
+            )
 
     if 'score' not in request.session:
         request.session['score'] = 0
@@ -36,14 +43,15 @@ def index(request):
     is_radio = (len(correct_answers_ids) == 1)
 
     request.session['correct'] = correct_answers_ids
+    request.session['question'] = question.id
 
     context = {
         'question': question,
         'answers': answers_ids_and_texts,
         'score': score,
         'is_radio': is_radio,
+        'prev_question': prev_question,
+        'correct_answers_for_prev_question': correct_answers_for_prev_question,
     }
-
-    print(context)
 
     return render(request, 'index.html', context)
