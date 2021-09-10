@@ -1,3 +1,7 @@
+venv2/
+data.json
+onlinetestpad1.html
+
 bundles/**
 node_modules/
 media/

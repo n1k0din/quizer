@@ -6,7 +6,7 @@ from tasks.models import Question, Answer
 
 
 class Command(BaseCommand):
-    help = 'Load tasks from json file'
+    help = 'Load tasks from google forms json file'
 
     def add_arguments(self, parser):
         parser.add_argument('tasks_json_filename', nargs=1)

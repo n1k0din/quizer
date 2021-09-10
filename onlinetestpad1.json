@@ -1,0 +1,196 @@
+[{
+  "question": "Rather than using your on-premises VDI solutions, which AWS service could be leveraged to provide your users the same functionality while removing your need to maintain and support a hardware infrastructure?",
+  "answers": ["AWS AppStream", "AWS WorkSpaces", "AWS WorkLink", "AWS DaaS"]
+}, {
+  "question": "What is Glacier designed for? (Choose 3).",
+  "answers": ["Data archives", "A replacement for tape archives", "On demand access for archives", "Infrequently accessed data", "Cached data"]
+}, {
+  "question": "Your company is migrating its on-premises environment to AWS. Which service below would help you do a cost-benefit analysis of moving to AWS versus remaining on-premises to present to your board of directors?",
+  "answers": ["AWS Config", "AWS Consolidated Billing", "AWS Cost Explorer", "AWS TCO Calculator"]
+}, {
+  "question": "What option below allows AWS RDS to failover to a secondary database in case of the primary database's failure?",
+  "answers": ["Standby", "Multi-AZ", "Read Replica", "Failover"]
+}, {
+  "question": "There was an incident in your company's AWS environment. You have been asked to review the API activity to determine the cause. What service captures AWS API calls and activity?",
+  "answers": ["AWS Config", "CloudTrail", "CloudWatch metrics", "CloudWatch Logs"]
+}, {
+  "question": "Under the AWS Shared Responsibility Model and an IaaS implementation, which of the following areas of responsibility reside with the customer? (Choose two.)",
+  "answers": ["Application code", "Operating system", "Virtualization", "Storage", "Networking"]
+}, {
+  "question": "Rather than creating accounts with passwords in AWS, your corporate policies require you to use your internal credentials via federation with AWS. Which technology could you use to establish federated authentication with AWS?",
+  "answers": ["JSON", "HTTPS", "RADIUS", "SAML"]
+}, {
+  "question": "What resource can you use to learn about AWS architectural and security best practices?",
+  "answers": ["Yellow Pages", "AWS Management Console", "AWS Whitepapers", "AWS Service Documentation"]
+}, {
+  "question": "In the AWS Shared Responsibility Model, which of the following is\u00a0not\u00a0your responsibility as the customer?",
+  "answers": ["Encrypting your data", "Decommissioning your data", "Managing Security groups and NACLS", "Patching your EC2 instances"]
+}, {
+  "question": "Which storage option is best suited for storing large quantities of archive documents?",
+  "answers": ["S3", "Glacier", "EBS snapshots", "EBS Volumes"]
+}, {
+  "question": "Which of the choices below can be attached to an EC2 instance to store data?",
+  "answers": ["EBS snapshots", "SQS", "S3", "EBS Volumes"]
+}, {
+  "question": "Which AWS service allows you to increase the number of resources based on demand of the application or the users?",
+  "answers": ["AWS Inspector", "AWS Launch Configuration", "AWS ELB", "AWS Auto Scaling"]
+}, {
+  "question": "For cost optimization in the AWS Shared Responsibility Model, what are two options you must consider for S3?",
+  "answers": ["The number of S3 buckets you need.", "Whether you need to use encryption", "The total size in gigabytes of all objects being stored", "Storage class being used or picked to store objects"]
+}, {
+  "question": "hat AWS service can do standard SQL queries on data in an S3 bucket?",
+  "answers": ["RDS", "DynamoDB", "Athena", "MySQL"]
+}, {
+  "question": "Your company needs to host a database in their AWS environment but needs to have control over patching. Which is the best choice?",
+  "answers": ["Oracle database", "AWS RDS database", "AWS DynamoDB database", "EC2 instance"]
+}, {
+  "question": "If you want to use decoupled resources, which of the following AWS service can assist you?",
+  "answers": ["SQS", "S3", "EC2", "EBS volumes"]
+}, {
+  "question": "In the AWS Shared Responsibility Model, what does AWS perform on your behalf for EBS volumes?",
+  "answers": ["Replication of the EBS volume across multiple regions", "Replication of the EBS volume across multiple EC2 instances", "Replication of the EBS volume across multiple Availability Zones", "Replication of the EBS volume across the same Availability Zone"]
+}, {
+  "question": "Your company wants to split budgets out in multiple ways in order to gain insight into costs by department and projects. Which AWS tool under the Billing Dashboard will allow easy implementation of this?",
+  "answers": ["Cost centers", "Cost graphs", "Cost categories", "Cost codes"]
+}, {
+  "question": "What tool listed below can you use to get an estimated monthly cost for your environment before you deploy resources?",
+  "answers": ["Cost Explorer", "Consolidated Billing", "Simple Monthly Calculator", "TCO Calculator"]
+}, {
+  "question": "What is AWS's Domain Name System?",
+  "answers": ["Direct Connect", "Route 53", "VPN", "AWS SES"]
+}, {
+  "question": "According to the AWS Shared Responsibility Model, what is the Customer responsible for when you create a security group? (Select TWO)",
+  "answers": ["Making sure the security groups are linked to the Elastic Network Interface (ENI) of the EC2 instance", "Defining the outbound rules", "Defining the inbound rules", "Making sure the security group rules are applied immediately"]
+}, {
+  "question": "What AWS service allows you to quickly provision a test environment to investigate possible breaches into your EC2 instance?",
+  "answers": ["OpsWorks", "CloudFormation", "CloudWatch", "CloudTrail"]
+}, {
+  "question": "Which AWS service is used to control user access in your environment?",
+  "answers": ["Network Access Control List", "Security Group", "AWS IAM", "AWS Guard Duty"]
+}, {
+  "question": "What is the main difference between an Availability Zone and an edge location?",
+  "answers": ["An Availability Zone is an isolated location within an AWS region. An edge location delivers cached content to the closest location to reduce latency for users.", "An Availability Zone contains an AWS region. An edge location delivers cached content to the closest location to reduce latency for users.", "An Availability Zone delivers cached content to the closest location to reduce latency for users. An edge location is an isolated location within an AWS region.", "An Availability Zone is an isolated location within an AWS region. An edge location is an AWS-specific resource in the region."]
+}, {
+  "question": "Pick two AWS services that use serverless technology.",
+  "answers": ["Pilot Light", "DynamoDB", "EC2", "S3"]
+}, {
+  "question": "You have a new requirement for your application that needs a set of servers for a short period of time of up to four months. While the instances are needed for a short period, the instances must be always available for the full duration. What instance type would be the best choice?",
+  "answers": ["Spot instances", "Partial up front reserved instances", "Reserved instances", "On-demand instances"]
+}, {
+  "question": "What can you use to keep logs in an S3 bucket for a specific amount of time and then delete the logs?",
+  "answers": ["Configure lifecycle rules for the S3 bucket.", "Add a bucket policy.", "Enable CORS on your S3 bucket", "Use an IAM policy."]
+}, {
+  "question": "Which AWS service can assist you with ensuring cost optimization in your AWS environment?",
+  "answers": ["AWS Cost Optimization", "AWS Organizations", "AWS Inspector", "AWS Trusted Advisor"]
+}, {
+  "question": "You have EC2 instances running at 90% utilization and you expect this to continue for at least a year. What type of EC2 instance would you choose to ensure your costs stay at a minimum and avoid interruption of the services on the EC2 instances?",
+  "answers": ["On-demand instances", "Spot instances", "Dedicated host instances", "Reserved instances"]
+}, {
+  "question": "Your company has a new requirement to split the AWS resources to each department and also to manage the multiple AWS accounts. What option below would allow effective management and a cost-efficient model to meet this requirement?",
+  "answers": ["AWS Organizations", "AWS Combined Billing", "AWS Cost Explorer", "AWS Trusted Advisor"]
+}, {
+  "question": "Which option below\u00a0cannot\u00a0be used to import data into Amazon Glacier?",
+  "answers": ["AWS S3 lifecycle policies", "AWS Management Console", "AWS Glacier API", "AWS Glacier SDK"]
+}, {
+  "question": "Which of the following tools can best assist with identifying common security vulnerabilities?",
+  "answers": ["AWS Inspector", "AWS Config", "AWS Guard Duty", "AWS Trusted Advisor"]
+}, {
+  "question": "Which AWS service would you choose to collect and track performance metrics like CPU utilization on your EC2 instances?",
+  "answers": ["CloudSearch", "CloudWatch", "CloudFront", "CloudFormation"]
+}, {
+  "question": "What service allows you to build your infrastructure as code?",
+  "answers": ["AWS CloudFormation", "AWS Config", "Amazon CloudSearch", "EC2"]
+}, {
+  "question": "What can be attached to an EC2 instance to store data?",
+  "answers": ["EBS volume", "Storage Gateway", "Glacier", "EBS snapshot"]
+}, {
+  "question": "Which is a benefit of CloudFront?",
+  "answers": ["Serverless compute capacity", "Built-in DDoS protection", "DNS management", "Unlimited storage"]
+}, {
+  "question": "What storage option provides the option of lifecycle policies that can be used to move objects to archive storage?",
+  "answers": ["S3", "SQS", "Storage Gateway", "EBS"]
+}, {
+  "question": "Which disaster recovery option below has the highest downtime?",
+  "answers": ["Backup and restore", "Warm standby", "Multi-site", "Active-Active"]
+}, {
+  "question": "What do you use to ensure an EC2 instance has appropriate access to your S3 bucket?",
+  "answers": ["AWS IAM roles", "AWS IAM users", "AWS IAM groups", "AWS IAM policies"]
+}, {
+  "question": "You are logged into a new AWS account your company has created for you, but keep getting an error when trying to access the EC2 Dashboard. What is the most likely reason for you not being able to access the EC2 Dashboard?",
+  "answers": ["There is not an IAM access policy attached to your IAM role.", "You do not have multi-factor authentication (MFA) enabled.", "There is not an IAM access policy attached to your IAM user.", "You are not part of an IAM group."]
+}, {
+  "question": "You have a dedicated web servers and database that remains largely idle but sometimes has huge spikes in activity. What can you architect to improve your cost-efficiency?",
+  "answers": ["Configure RDS Multi-AZ for performance optimization.", "Migrate the web servers to EC2 spot instances.", "Configure serverless architecture leveraging Lambda.", "Use an Elastic Load Balancer between your server and database."]
+}, {
+  "question": "Which of the following statements correctly describes the concept of Auto Scaling?",
+  "answers": ["To distribute traffic to multiple regions", "To increase the size of the EC2 instance based on demand", "To scale out resources based on demand", "To distribute traffic to multiple EC2 instances"]
+}, {
+  "question": "You need to monitor the average CPU usage of your EC2 instances. Which AWS service should you use?",
+  "answers": ["CloudTrail", "CloudWatch", "CloudFormation", "CloudMonitor"]
+}, {
+  "question": "How do you encrypt CloudTrail logs?",
+  "answers": ["Send all logs to S3, and enable server-side encryption.", "No action is needed since they are automatically encrypted.", "Enable KMS encryption.", "Enable encryption."]
+}, {
+  "question": "What tool below helps estimate the costs of moving your on-premises environment to AWS?",
+  "answers": ["AWS Consolidated Billing", "AWS Config", "AWS Cost Explorer", "AWS TCO Calculator"]
+}, {
+  "question": "Is penetration testing allowed in your AWS account? Please select the best available answer.READ:\u00a0https://aws.amazon.com/premiumsupport/knowledge-center/penetration-testing/https://aws.amazon.com/security/penetration-testing/",
+  "answers": ["Yes. Limited penetration is allowed for 8 services, but you\u00a0must\u00a0contact AWS first for some test types.", "None of these are correct.", "Yes. Contact AWS and ask them to begin your testing.", "Yes. You are free to do penetration testing whenever you like."]
+}, {
+  "question": "Choose a benefit of RDS.",
+  "answers": ["Does not allow resizing of the capacity", "Automated patches and backups", "Allows storage of NoSQL data", "Allows storage of unstructured data"]
+}, {
+  "question": "What AWS service allows for distribution of incoming application traffic across multiple EC2 instances?",
+  "answers": ["EC2", "ELB", "Inspector", "Auto Scaling"]
+}, {
+  "question": "What AWS service is a fully managed petabyte-scale data warehouse service in AWS?",
+  "answers": ["Athena", "Redshift", "DynamoDB", "Aurora", "RDS"]
+}, {
+  "question": "What is the difference between Cost Explorer and the AWS TCO calculator?",
+  "answers": ["The TCO calculator helps you estimate the cost savings of using AWS; the Cost Explorer help you analyze current AWS usage charges.", "The Cost Explorer is a price list for each AWS service; the TCO calculator helps you calculate hourly EC2 usage cost.", "The Cost Explorer helps you calculate hourly EC2 Usage cost; the TCO calculator is a price list for each AWS service.", "The TCO calculator helps you analyze current AWS usage charges; the Cost Explorer helps you estimate the cost savings of using AWS."]
+}, {
+  "question": "Which of the following options are best practices for permissions in your AWS environment? (Choose TWO)",
+  "answers": ["Use customer-managed policies instead of AWS-managed policies.", "Follow the principle of least privilege.", "Rotate, remove, and update credentials on a regular schedule.", "Use IAM users instead of groups."]
+}, {
+  "question": "How can you make sure your organization does not exceed its monthly budget?",
+  "answers": ["Sign up for the free alert under billing preferences in the AWS Management Console.", "Set a schedule to regularly review the Billing and Cost Management dashboard each month.", "Create an email alert in AWS Budgets.", "In CloudWatch, create an alarm that triggers each time the limit is exceeded."]
+}, {
+  "question": "You need to determine who terminated several critical EC2 instances. Which of the following is the best option for finding out who is responsible?",
+  "answers": ["AWS Inspector", "AWS CloudTrail", "AWS Guard Duty", "AWS CloudWatch"]
+}, {
+  "question": "After installing SSL/TLS for security, you were alerted that there is a consistent spike in one of your company's web servers hosting a large application. This increased activity slowed down your application. Which of the following is the best and most cost-effective option for resolving the slow speed and getting your application to respond quickly again?",
+  "answers": ["Create a custom CloudWatch script to monitor the resources and alert you when the application begins to degrade", "Offload the SSL/TLS from running locally on your application to AWS CloudHSM", "Migrate the application to a larger EC2 instance with more computing and networking capability", "Create an auto-scaling group to scale out traffic based on demand"]
+}, {
+  "question": "Which statement below best describes fault tolerance?",
+  "answers": ["Deploying resources across multiple Availability Zones", "Deploying resources across multiple edge locations", "Deploying resources across multiple AWS accounts", "Deploying resources across multiple VPCs"]
+}, {
+  "question": "Edge locations have which of the following features? (Choose THREE)",
+  "answers": ["Distribute content to users", "Cache common content", "Used with CloudFront", "Distributes content across multiple AWS resources"]
+}, {
+  "question": "You have a distributed application that sometimes processes large volumes of data. The application is designed to recover gracefully if any EC2 instance fails. Your task is to process the large volumes of data in the most cost-effective way. What instance type will work best and be the most cost-effective?",
+  "answers": ["Spot instances", "Dedicated instances", "On-demand instances", "Reserved instances"]
+}, {
+  "question": "Which of the following statements regarding Auto Scaling is most accurate?",
+  "answers": ["Distributes traffic to multiple EC2 or RDS instances", "Scales out resources based on demand", "Increases the size of the EC2 instance based on demand", "Distributes traffic across multiple regions"]
+}, {
+  "question": "What tool is best for forecasting your AWS spending?",
+  "answers": ["AWS Trusted Advisor", "AWS Organizations", "AWS TCO Calculator", "AWS Cost Explorer"]
+}, {
+  "question": "Which of the following services can be used as a web application firewall in your AWS environment?",
+  "answers": ["AWS Firewall", "AWS WAF", "AWS VPC", "AWS GuardDuty"]
+}, {
+  "question": "AWS incorporates a variety of robust security services to counter common types of web attacks. Which type of attack is the AWS Shield service designed to protect against?",
+  "answers": ["Cross-site scripting", "SQL injection", "Brute force", "Distributed Denial of Service"]
+}, {
+  "question": "Your company has decided to retire their on-premises data warehouse and move to a similar solution in AWS for increased capacity and lower costs. Which AWS service would you explore for this initiative?",
+  "answers": ["Redshift", "Aurora", "DynamoDB", "RDS"]
+}, {
+  "question": "Which type of service offerings pushes the responsibility for configuration and operations to AWS and leaves the customer only responsible for loading their data?",
+  "answers": ["Unmanaged", "Regulated", "Managed", "Offloaded"]
+}, {
+  "question": "AWS allows for resources to be added to a system without any downtime or interruption to services. What is this concept called?",
+  "answers": ["Elasticity", "Scalability", "Expandability", "Portability"]
+}, {
+  "question": "Security groups and access control lists (ACLs) are two means of applying security rules within AWS. Which of the following statements is true?",
+  "answers": ["Security groups and ACLs can both be applied to subnets and instancesSecurity groups apply to instances; ACLs apply to subnets", "Security groups apply to instances; ACLs apply to subnets", "Security groups apply to subnets; ACLs apply to instances", "Security groups and ACLs are only used on subnets"]
+}]
