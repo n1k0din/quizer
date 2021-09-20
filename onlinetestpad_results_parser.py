@@ -1,12 +1,16 @@
+import argparse
 import json
 
 from bs4 import BeautifulSoup
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('input_file')
+    args = parser.parse_args()
 
     html = ''
-    with open('onlinetestpad1.html') as f:
+    with open(args.input_file) as f:
         for row in f:
             html = f'{html}{row.rstrip()}'
 
@@ -27,7 +31,8 @@ def main():
             }
         )
 
-    with open('onlinetestpad1.json', 'w') as f:
+    output_file = args.input_file.replace('.html', '.json')
+    with open(output_file, 'w') as f:
         json.dump(db, f)
 
 
